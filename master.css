@@ -86,13 +86,13 @@ h1,h2,h3,h4 {
     font-weight: 700;
 }
 
-.greenwhite {
+.nature {
     background-color: #1abc9c;
     color: white;
     padding: 96px 0;
 }
 
-.greenwhite img {
+.nature img {
     height: 255px;
 }
 
@@ -116,7 +116,6 @@ h1,h2,h3,h4 {
 }
 
 .portfolio .row img:hover {
-
     opacity: 0.1;
     font-size :50px;
 }
@@ -138,7 +137,7 @@ p {
     border-color: #f8f9fa;
 }
 
- .greenwhite hr {
+ .nature hr {
     text-align: center;
     width: 288px;
     max-width: 90%;
@@ -148,12 +147,12 @@ p {
     margin-bottom: 40px;
 }
 
-.whiteblue {
+.sailor {
     color:#2c3e50;
     padding: 96px 0;
 }
 
- .whiteblue hr {
+ .sailor hr {
     text-align: center;
     width: 288px;
     max-width: 90%;
@@ -177,7 +176,7 @@ h2 {
     font-weight: 700;
 }
 
-.whiteblue h2::after {
+.sailor h2::after {
     font-family: "Font Awesome 5 Free";
     content: '\f005';
     position: absolute;
@@ -195,8 +194,8 @@ h2 {
     max-width: 360px;
 }
 
-.greenwhite h2::after,
-.greenwhite h1::after {
+.nature h2::after,
+.nature h1::after {
     font-family: "Font Awesome 5 Free";
     content: '\f005';
     position: absolute;
@@ -211,7 +210,6 @@ h2 {
 
 .contact-me h2 {
     font-size: 36px;
-
 }
 
 .form-group input,
@@ -220,7 +218,6 @@ h2 {
     border-bottom: 1px solid #e9ecef;
     font-size: 24px;
     padding: 38px 0;
-
 }
 
 .form-control {
@@ -268,8 +265,6 @@ footer i {
     font-size: 1.5em;
     width: 60px;
     height: 60px;
-
-
 }
 
 footer i:hover {

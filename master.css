@@ -4,7 +4,45 @@
     border-radius: 0;
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-toggle {
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+    border-radius: 6px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 6px 10px;
+    margin-right: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #148f77;
+    border-color:  #148f77;
+}
+
+.navbar-header .inline {
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    color:white;
+    line-height: 2;
+    vertical-align: middle;
+    padding: 0 3px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
     color: white;
     background-color: transparent;
 }
@@ -79,6 +117,7 @@ p {
 
 .about p {
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
  .greenwhite hr {
@@ -171,6 +210,13 @@ h2 {
     border-radius: 0;
 }
 
+.form-control:focus {
+    border-color: #e9ecef;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #1abc9c;
@@ -178,6 +224,13 @@ h2 {
     padding: 16px 28px;
     font-size: 20px;
 }
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
 footer {
     background-color:  #2c3e50;
     color: white;
@@ -201,12 +254,24 @@ footer i {
 
 }
 
+footer i:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa
+}
+
 footer p {
     font-size: 20px;
+    padding: 0 45px;
 }
 
 footer span {
     color: #1abc9c;
+}
+
+footer span:hover {
+    color: #117964;
+    text-decoration: underline;
 }
 
 .btn-default {

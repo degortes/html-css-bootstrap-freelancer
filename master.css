@@ -1,3 +1,12 @@
+main {
+    padding-top: 70px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+}
+
 .navbar {
     margin-bottom: 0;
     border:0;
@@ -70,8 +79,8 @@
 }
 
 .navbar-default .navbar-brand {
+    font-size: 20px;
     color: white;
-    font-size: 24px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -114,11 +123,19 @@
 
 p {
     font-size: 24px;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .about p {
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.btn-default:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
 }
 
  .greenwhite hr {
@@ -164,12 +181,12 @@ h2 {
     font-family: "Font Awesome 5 Free";
     content: '\f005';
     position: absolute;
-    top: calc( 100% - 5px);
+    top: calc( 100% - -5px);
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
     background-color:white ;
-    padding: 10px;
+    padding: 0 10px;
     color: #2c3e50;
 }
 
@@ -183,12 +200,12 @@ h2 {
     font-family: "Font Awesome 5 Free";
     content: '\f005';
     position: absolute;
-    top: calc( 100% - 5px);
+    top: calc( 100% - -5px);
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
     background-color: #1abc9c;
-    padding: 10px;
+    padding: 0 10px;
     color:white;
 }
 
@@ -301,4 +318,8 @@ footer span:hover {
         font-size: 48px;
 
     }
+    .navbar-default .navbar-brand {
+        font-size: 24px;
+    }
+
 }
